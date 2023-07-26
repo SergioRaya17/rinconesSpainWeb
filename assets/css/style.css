@@ -360,3 +360,67 @@
         font-size: 20px;
     }
 }
+
+.conct .header a{
+    color: #000;
+}
+
+.conct .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #131212;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+.conct .social-media a:hover {
+    background-color: #131010;
+}
+
+.conct .social-media a i {
+    font-size: 20px;
+    color: #0a0a0a;
+    transition: .5s;
+}
+
+.conct .social-media a:hover i {
+    color: #fff;
+}
+
+body .section {
+    display: flex;
+    flex-direction: row;
+    padding: 140px 5%;
+}
+
+.formBox {
+    width: 40%;
+    height: 100%;
+}
+
+.imgbox .contacImg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.imgbox {
+    width: 60%;
+    height: 100%;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(20px);
+}
+
+.abs {
+    position: absolute;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+}
